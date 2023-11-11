@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Playfair', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 10px;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 11px;
+    padding: 30px 30px;
+    justify-content: center;
+}
+
+.banner{
+    background-image: url(https://miro.medium.com/v2/resize:fit:716/1*xKjEmuS0GUa9f9jtT22eeg.jpeg);
+}
+
+.song-list h1{
+    text-align: center;
+    font-size: 10vh;
+}
+
+.songItemContainer{
+    margin-top: 60px;
+    /* background-color: rgba(255, 255, 255, 0.25); */
+    width: 35vw;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songItem img{
+    width: 40px;
+    margin: 0 30px;
+    border-radius: 10%;
+}
+
+.timestamp{
+    margin: 0 30px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.bottom{
+    /* height: 50px; */
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.icons i{
+    cursor: pointer;
+    margin: 0 7px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 11vw;
+}
